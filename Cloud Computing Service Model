@@ -1,16 +1,53 @@
 Iaas:
 ===
-Here the cloud service providers offer databases,web servers ,application servers,messageing services,network,and more to their customers as a service,and customers pay them as per use.
+Here the cloud service providers offer databases,web servers ,application servers,
+messageing services,network,and more to their customers as a service,
+and customers pay them as per use.
 Paas:
 ===
 -platform as service --->provide customer on demand Enviroment for testing developing ,and delivering applications(code) in the cloud.
 It providees development tools.For example application server(jeva,Net framework)and Database server(mySQL,ORacle)
 It makes it easy developers to quickely create web or mobile applicatios and deliver them to the market
 eg.Elastic Beanstalk,Goole App Engine.
+
 SaaS:
 ===
 It delivers the software applications over the internate ,on demand and subscributions.
 cloud providers manage software applications ,underlying infrastructure plus handle software updates and security patches.
 user connect the software applications via a browser,pc or mobile 
 example .online banking service,gmail,facebook,github,office365
+Cloud :
+Pros:
+cost-effective,scalable ,flexable ,availablity,
+Cons:Low security and less cotomizable,lack of total control,not easy to migrate.
 
+AWS -175 services across infrastructure as a service(SaaS).
+Client security is a significant concern for Aws.
+
+security is inhrint in my organizations.
+Trivy 
+sonarqube 
+===
+image 
+eks 
+WAF
+amazon inspector 
+kms
+How choose the region 
+========================
+-security and compliance requirment 
+-Service aviablity (some service are not 
+-pricing 
+-User/customer location
+-latency
+==================================================
+-Data present in region can be replicated to a different region to mantain the data's availablity at time of failure.
+(az1 az2 az3).
+-increase fault tolerance 
+- Redundancy 
+-reduces Latency 
+===================================
+HA 
+user deploy their server at least in two Az's that cases 
+one Az goes down the applications can continue to function smothly by using the other Az
+-High Avialablity ensure fault tolarance and low latency and low latency in a particular region.
