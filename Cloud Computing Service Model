@@ -51,3 +51,6 @@ HA
 user deploy their server at least in two Az's that cases 
 one Az goes down the applications can continue to function smothly by using the other Az
 -High Avialablity ensure fault tolarance and low latency and low latency in a particular region.
+==========================================================
+Latency is measure of time require for transfer of data from client to server and back to the client.
+Latency=T1+T2
