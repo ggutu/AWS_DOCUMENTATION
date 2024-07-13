@@ -1,5 +1,10 @@
-AWS Service Integrations:https://www.youtube.com/watch?v=jXQhaJIxLnE
 
+SNS vs SQS Comparison? senario
+=====================
+AWS Service Integrations:https://www.youtube.com/watch?v=jXQhaJIxLnE
+https://www.youtube.com/watch?v=mXk0MNjlO7A&t=24s
+SNS topic :when transmited over the wire encrypted.
+if highly sensitiveve.You want have higher standerd.Bith on the wire and rest
 Iaas:
 ===
 Here the cloud service providers offer databases,web servers ,application servers,
